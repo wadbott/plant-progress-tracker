@@ -12,4 +12,6 @@ Coffee plants require precise nutrients intake and my main motivation was develo
 - Python  
   
 ### Screenshots
-![User interface](./img/ui-plant-tracker-app.png)
+![User interface](./img/ui-plant-tracker-app.png)  
+
+https://user-images.githubusercontent.com/58222697/170534585-401b3a9e-aeb3-4c3a-9f26-b4e06a2ea3ac.mp4
