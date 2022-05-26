@@ -1,0 +1,51 @@
+<Code_Search>:		
+	BoxLayout:
+		id: box		
+	    orientation: 'vertical'
+		TextInput:
+		    id: codigo_inserido
+		    font_size: 70
+		    bold: True
+		    halign: 'center'		    
+		    height: 80
+		    focus: True
+		    multiline: False
+
+
+
+<Tree_Page>:	
+	BoxLayout:	
+	    orientation: 'vertical'
+	    Label: 
+	    	id: label_code
+	    	pos_hint: {"center_x":0.5, "center_y":0.5}	    	
+	    	size_hint: None, None
+	    	text: 'Planta ' + app.code_storage
+	    	color: app.black
+	    	bold: True
+	    	font_size: 40
+	    	size: self.texture_size
+	    	markup: True
+
+	    ScrollView:		   
+			TextInput:
+			    id: codigo_salvo
+			    font_size: 60
+			    size_hint_y: None
+        		height: self.minimum_height		    
+		    
+
+
+
+
+
+
+
+
+
+
+	    
+	
+
+		
+
